@@ -79,4 +79,6 @@ int main()
     bench("clock_gettime(CLOCK_MONOTONIC_FAST)", &get_clock_gettime, CLOCK_MONOTONIC_FAST);
     bench("clock_gettime(CLOCK_MONOTONIC_PRECISE)", &get_clock_gettime, CLOCK_MONOTONIC_PRECISE);
     bench("clock_gettime(CLOCK_SECOND)", &get_clock_gettime, CLOCK_SECOND);
+
+    return 0;
 }
